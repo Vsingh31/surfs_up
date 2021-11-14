@@ -20,11 +20,15 @@ These are my Summary Statistics for the june and december temperatures,with the 
 * The Standard Deviation in Summary statistics for the June temperatures is 3.25 which are very less than the Mean(Mean is 74.9),means data are clustered around the Mean.According to that we can say that temparute of Oaho is good through out year. same in december temparures statistics Standard Deviation is 3.7 and Mean is 71. so this is justify that temparures are mostley is  in 70.so it is good temprature to have ice-cream and do surfing.so we can say that the "surf and ice cream shop" business is sustainable year-round in Oaho.
 
 
+#### Summary:
+After Analysing Summary statistics for the June temperatures and Summary statistics for the december temperatures,we can say that the weather of Oaho is good through out year because june is summer month and in summer max temprature is 85 and december is winter month and in winter max temprature is 83.so we can say that weather of Oaho is always good for surf and ice cream shop" business.
+
+*December_temp = session.query(Measurement.date,Measurement.tobs).filter(extract('month', Measurement.date)==12)
 
 
 
 
-#### Summary: Provide a high-level summary of the results and two additional queries that you would perform to gather more weather data for June and December.
+Provide a high-level summary of the results and two additional queries that you would perform to gather more weather data for June and December.
 
 There is a high-level summary of the results and there are two additional queries to perform to gather more weather data for June and December. (5 pt)
 write a report that describes the key differences in weather between June and December and two recommendations for further analysis.
