@@ -25,7 +25,7 @@ After Analysing Summary statistics for the June temperatures and Summary statist
 
 * This is the query to know the amount of precipitation on Oahu. Oahu needs to be enough rain to keep everything green, but not so much that you lose out on that ideal surfing and ice cream weather.so we will query with precipitation column in Measurement table and get june and december months precipitation on Oahu.
 
-*June_prcp = session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date)==6)
+* June_prcp = session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date)==6)
 
-*December_prcp = session.query(Measurement.date,Measurement.prcp).filter(extract('month', Measurement.date)==12)
+* December_prcp = session.query(Measurement.date,Measurement.prcp).filter(extract('month', Measurement.date)==12)
 
