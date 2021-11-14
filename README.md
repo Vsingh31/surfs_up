@@ -17,7 +17,7 @@ These are my Summary Statistics for the june and december temperatures,with the 
 
 * The Minimum and Maximum temparute also help us to determine that opening a "surf and ice cream shop" business is sustainable year-round or not in Oaho. So,you can see in the summary statistics for june temperatures, the min tempature is 64 and max tempature is 85 and  in the summary statistics for december temperatures, the min tempature is 56 and max tempature is 83.So we can see the max temprature is  in 80 so definitily day time have good weather so we can say that opening a "surf and ice cream shop" business is in Oaho is good idea and it will sustainable year-round .
 
-* The Standard Deviation in Summary statistics for the June temperatures is 3.25 which are very less than the Mean(Mean is 74.9),means data are clustered around the Mean.According to that we can say that temparute of Oaho is good through out year. same in december temparures statistics Standard Deviation is 3.7
+* The Standard Deviation in Summary statistics for the June temperatures is 3.25 which are very less than the Mean(Mean is 74.9),means data are clustered around the Mean.According to that we can say that temparute of Oaho is good through out year. same in december temparures statistics Standard Deviation is 3.7 and Mean is 71. so this is justify that temparures are mostley is  in 70.so it is good temprature to have ice-cream and do surfing.so we can say that the "surf and ice cream shop" business is sustainable year-round in Oaho.
 
 
 
