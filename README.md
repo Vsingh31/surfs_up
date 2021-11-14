@@ -23,12 +23,9 @@ These are my Summary Statistics for the june and december temperatures,with the 
 #### Summary:
 After Analysing Summary statistics for the June temperatures and Summary statistics for the december temperatures,we can say that the weather of Oaho is good through out year because june is summer month and in summer max temprature is 85 and december is winter month and in winter max temprature is 83.so we can say that weather of Oaho is always good for surf and ice cream shop" business.
 
-*December_temp = session.query(Measurement.date,Measurement.tobs).filter(extract('month', Measurement.date)==12)
+* This is the query to know the amount of precipitation on Oahu. Oahu needs to be enough rain to keep everything green, but not so much that you lose out on that ideal surfing and ice cream weather.so we will query with precipitation column in Measurement table and get june and december months precipitation on Oahu.
 
+*June_prcp = session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date)==6)
 
+*December_prcp = session.query(Measurement.date,Measurement.prcp).filter(extract('month', Measurement.date)==12)
 
-
-Provide a high-level summary of the results and two additional queries that you would perform to gather more weather data for June and December.
-
-There is a high-level summary of the results and there are two additional queries to perform to gather more weather data for June and December. (5 pt)
-write a report that describes the key differences in weather between June and December and two recommendations for further analysis.
